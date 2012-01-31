@@ -9,9 +9,14 @@ package modelo;
  *
  * @author Bea
  */
-public class RespuestaAlmacenada {
+public class RespuestaAlmacenada extends RespuestaDirecta{
 
     private long Id;
+
+    public RespuestaAlmacenada() {
+    }
+    
+    
 
     public long getId() {
         return Id;

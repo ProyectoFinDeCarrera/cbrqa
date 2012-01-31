@@ -2,25 +2,24 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package modelo;
 
 /**
  *
  * @author Bea
  */
-public class RepresentacionTextual extends Representacion {
-
+public class ConsultaTextual implements Consulta{
+    
     private String texto;
 
-    public RepresentacionTextual() {
+    public ConsultaTextual() {
     }
-    
-    
 
-    public RepresentacionTextual(String texto) {
+    public ConsultaTextual(String texto) {
         this.texto = texto;
     }
+
+    
     
     public String getTexto() {
         return texto;
@@ -29,7 +28,6 @@ public class RepresentacionTextual extends Representacion {
     public void setTexto(String texto) {
         this.texto = texto;
     }
-
-
-
+    
+    
 }

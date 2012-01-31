@@ -2,18 +2,14 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package modelo;
+package Coleccion.analizadores;
 
 /**
  *
  * @author Bea
  */
-public class RespuestaConstruida extends Respuesta{
-
-    public RespuestaConstruida() {
-    }
+public enum TipoAnalisis {
     
+    PREGUNTA, RESPUESTA,CONSULTA
     
-
 }

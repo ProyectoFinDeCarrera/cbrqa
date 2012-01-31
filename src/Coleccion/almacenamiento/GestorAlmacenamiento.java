@@ -7,6 +7,7 @@ package Coleccion.almacenamiento;
 
 import java.util.List;
 import modelo.Coleccion;
+import modelo.Consulta;
 import modelo.Pregunta;
 import modelo.Respuesta;
 

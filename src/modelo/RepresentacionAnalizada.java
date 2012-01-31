@@ -15,6 +15,9 @@ public class RepresentacionAnalizada extends Representacion{
 
     private List <Termino> terminos;
 
+    public RepresentacionAnalizada() {
+    }
+
 
     public List<Termino> getTerminos() {
         return terminos;

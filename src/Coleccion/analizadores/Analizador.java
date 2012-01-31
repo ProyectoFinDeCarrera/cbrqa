@@ -15,6 +15,6 @@ import modelo.RepresentacionTextual;
 public interface Analizador {
 
     public void inicializar();
-    RepresentacionAnalizada analizar(RepresentacionTextual representacionTextual,String tipo);
+    RepresentacionAnalizada analizar(RepresentacionTextual representacionTextual,TipoAnalisis tipo);
 
 }

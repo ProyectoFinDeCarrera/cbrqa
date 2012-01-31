@@ -15,6 +15,11 @@ public class RespuestaPreguntasSimilares {
 
     private List<Pregunta> preguntas;
 
+    public RespuestaPreguntasSimilares() {
+    }
+    
+    
+
     public List<Pregunta> getPreguntas() {
         return preguntas;
     }

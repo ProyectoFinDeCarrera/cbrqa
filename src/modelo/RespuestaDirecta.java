@@ -11,10 +11,15 @@ import java.util.List;
  *
  * @author Bea
  */
-public class RespuestaDirecta {
+public class RespuestaDirecta extends Respuesta{
 
     private List <Representacion> representaciones;
     private RepresentacionTextual representacionTextual;
+
+    public RespuestaDirecta() {
+    }
+    
+    
 
     public List<Representacion> getRepresentaciones() {
         return representaciones;

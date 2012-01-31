@@ -13,6 +13,11 @@ public class Usuario {
 
     private String nombre;
 
+    public Usuario() {
+    }
+    
+    
+
     public String getNombre() {
         return nombre;
     }

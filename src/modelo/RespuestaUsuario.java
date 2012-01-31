@@ -14,6 +14,11 @@ public class RespuestaUsuario {
     private Respuesta respuesta;
     private Usuario usuario;
 
+    public RespuestaUsuario() {
+    }
+    
+    
+
     public Respuesta getRespuesta() {
         return respuesta;
     }

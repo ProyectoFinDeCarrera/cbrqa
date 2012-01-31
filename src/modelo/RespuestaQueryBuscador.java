@@ -17,6 +17,11 @@ public class RespuestaQueryBuscador {
     private String consulta;
     List <String> urls; //???
 
+    public RespuestaQueryBuscador() {
+    }
+    
+    
+
     public String getBuscador() {
         return buscador;
     }

@@ -13,6 +13,11 @@ public class Idioma {
 
     private String idioma;
 
+    public Idioma() {
+    }
+    
+    
+
     public String getIdioma() {
         return idioma;
     }

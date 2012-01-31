@@ -14,6 +14,11 @@ public class Respuesta {
     private Pregunta pregunta;
     private double valoracion;
 
+    public Respuesta() {
+    }
+    
+    
+
     public Pregunta getPregunta() {
         return pregunta;
     }

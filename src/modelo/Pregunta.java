@@ -13,13 +13,33 @@ import java.util.List;
  * @author Bea
  */
 public class Pregunta {
+
+    
     
     private long id;
     private Coleccion coleccion;
     private Idioma idioma;
     private RepresentacionTextual representacionTextual;
-    private List <Representacion> representaciones;
+    private List<Representacion> representaciones;
+    private List<Respuesta> respuestas;
 
+    public Pregunta() {
+        
+       }
+    
+    
+
+    public Pregunta(long id, Coleccion coleccion, Idioma idioma, RepresentacionTextual representacionTextual, List<Representacion> representaciones, List<Respuesta> respuestas) {
+        this.id = id;
+        this.coleccion = coleccion;
+        this.idioma = idioma;
+        this.representacionTextual = representacionTextual;
+        this.representaciones = representaciones;
+        this.respuestas = respuestas;
+    }
+    
+    
+    
     public Coleccion getColeccion() {
         return coleccion;
     }
@@ -58,6 +78,14 @@ public class Pregunta {
 
     public void setRepresentaciones(List<Representacion> representaciones) {
         this.representaciones = representaciones;
+    }
+    
+    public List<Respuesta> getRespuestas() {
+        return respuestas;
+    }
+
+    public void setRespuestas(List<Respuesta> respuestas) {
+        this.respuestas = respuestas;
     }
 
    

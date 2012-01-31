@@ -13,6 +13,10 @@ public abstract class Representacion {
 
     private Idioma idioma;//No tengo muy claro si va aquí o en la clase Pregunta.
 
+    public Representacion() {
+    }
+    
+
     public Idioma getIdioma() {
         return idioma;
     }

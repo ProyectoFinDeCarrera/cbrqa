@@ -14,6 +14,12 @@ public class Coleccion {
 
     private String nombre;
 
+    public Coleccion() {
+        
+    }
+    
+    
+
     public String getNombre() {
         return nombre;
     }

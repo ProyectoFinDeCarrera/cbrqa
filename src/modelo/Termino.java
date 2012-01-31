@@ -13,6 +13,10 @@ public class Termino {
 
     private String etiqueta;
 
+    public Termino() {
+    }
+    
+
     public String getEtiqueta() {
         return etiqueta;
     }
